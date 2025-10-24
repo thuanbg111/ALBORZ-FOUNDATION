@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Alborz Foundation initiatives: sustained education, life-skills, and community partnerships." />
+  <title>Initiatives · Alborz Foundation</title>
+  <link rel="icon" href="images/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="images/logo.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="theme-alborz">
+  <header class="af-header">
+    <div class="af-container head-inner">
+      <button id="menuBtn" class="menu-btn" aria-label="Open navigation">☰</button>
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Alborz Foundation logo" />
+        <div class="brand-text"><strong>Alborz Foundation</strong><span>Public Benefit · IRS 501(c)(3)</span></div>
+      </a>
+      <nav id="nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="programs.html">Initiatives</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="af-container page-wide">
+    <header class="page-header">
+      <h1>Our Initiatives</h1>
+      <p>We design programs that persist — supporting learners from first exposure through completion and transition into work and community life.</p>
+    </header>
+
+    <div class="cards masonry">
+      <article class="card">
+        <h3>Sustained Education</h3>
+        <p>Micro-scholarships, tutoring, and mentorship that reduce stop-outs and keep learners on track to completion.</p>
+      </article>
+      <article class="card">
+        <h3>Life Skills & Readiness</h3>
+        <p>Digital literacy, financial basics, and career exploration for durable life outcomes.</p>
+      </article>
+      <article class="card">
+        <h3>Community Partnerships</h3>
+        <p>Joint projects with schools, libraries, and nonprofits to reach high-need learners where they are.</p>
+      </article>
+      <article class="card">
+        <h3>Resources & Kits</h3>
+        <p>Study materials, devices, and essentials that remove practical barriers to learning.</p>
+      </article>
+    </div>
+
+    <section class="strip-photos">
+      <img src="images/pic1.jpg" alt="Learning support" />
+      <img src="images/pic2.jpg" alt="Workshop" />
+      <img src="images/pic3.jpg" alt="Community collaboration" />
+      <img src="images/pic4.jpg" alt="Student presentation" />
+      <img src="images/pic5.jpg" alt="Resource kits" />
+    </section>
+  </main>
+
+  <footer class="af-footer">
+    <div class="af-container">
+      <p><strong>Alborz Foundation</strong> · EIN: <strong>884356281</strong> · 211 HOPE ST #390542, Mountain View, CA 94041</p>
+      <p>Phone: <a href="tel:+18704108167">+1 870 410 8167</a> · Email: <a href="mailto:contact@alborzfoundation.click">contact@alborzfoundation.click</a></p>
+      <p>U.S. nonprofit under <strong>IRS §501(c)(3)</strong>. Donations may be tax-deductible as allowed by law.</p>
+      <small>© 2025 Alborz Foundation</small>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const nav = document.getElementById('nav');
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>

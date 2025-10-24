@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Alborz Foundation — a California Public Benefit nonprofit under IRS 501(c)(3) expanding sustained education and life opportunities for disadvantaged communities." />
+  <title>Alborz Foundation</title>
+  <link rel="icon" href="images/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="images/logo.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="theme-alborz">
+  <header class="af-header">
+    <div class="af-container head-inner">
+      <button id="menuBtn" class="menu-btn" aria-label="Open navigation">☰</button>
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Alborz Foundation logo" />
+        <div class="brand-text">
+          <strong>Alborz Foundation</strong>
+          <span>Public Benefit · IRS 501(c)(3)</span>
+        </div>
+      </a>
+      <nav id="nav" class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Initiatives</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-blanket">
+    <div class="af-container hero-content">
+      <h1>Opening Doors to <span class="underline">Sustained Education</span></h1>
+      <p>Alborz Foundation is a California Nonprofit Public Benefit corporation dedicated to long-term learning, practical life skills, and pathways to prosperity for disadvantaged communities.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="programs.html">Explore Initiatives</a>
+        <a class="btn btn-ghost" href="about.html">Our Story</a>
+      </div>
+    </div>
+    <img class="hero-image" src="images/hero.jpg" alt="Students and mentors engaged in learning" />
+  </section>
+
+  <main>
+    <section class="stats af-container">
+      <div class="stat"><strong>501(c)(3)</strong><span>IRS recognized</span></div>
+      <div class="stat"><strong>+ Community</strong><span>Mountain View, CA</span></div>
+      <div class="stat"><strong>EIN</strong><span>884356281</span></div>
+    </section>
+
+    <section class="zigzag">
+      <div class="af-container zig">
+        <div class="zz-text">
+          <h2>Education that lasts</h2>
+          <p>We fund scholarships, tutoring, and success coaching to help learners stay the course — not just enroll. Our approach emphasizes persistence, graduation, and life-readiness.</p>
+        </div>
+        <div class="zz-media"><img src="images/pic1.jpg" alt="Tutoring and coaching session"></div>
+      </div>
+
+      <div class="af-container zag">
+        <div class="zz-media"><img src="images/pic2.jpg" alt="Career readiness workshop"></div>
+        <div class="zz-text">
+          <h2>Life & career pathways</h2>
+          <p>From digital literacy to financial basics and career exposure, Alborz programs focus on skills that compound — enabling prosperous life experiences beyond the classroom.</p>
+        </div>
+      </div>
+
+      <div class="af-container zig">
+        <div class="zz-text">
+          <h2>Community partnerships</h2>
+          <p>We collaborate with schools, libraries, and local groups to reach students who benefit most, delivering resources where they live and learn.</p>
+        </div>
+        <div class="zz-media"><img src="images/pic3.jpg" alt="Community partners collaborating"></div>
+      </div>
+    </section>
+
+    <section class="gallery af-container">
+      <h2>In the Field</h2>
+      <div class="image-strip">
+        <img src="images/pic4.jpg" alt="Learning lab" />
+        <img src="images/pic5.jpg" alt="Mentor meetups" />
+        <img src="images/pic6.jpg" alt="Community event" />
+        <img src="images/pic7.jpg" alt="Graduation celebration" />
+      </div>
+    </section>
+
+    <section class="cta af-container">
+      <div class="cta-card">
+        <h3>Partner with Alborz Foundation</h3>
+        <p>Together we can compound opportunity — through mentorship, sponsorships, and community programs. Join us.</p>
+        <a class="btn btn-primary" href="contact.html">Get in Touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="af-footer">
+    <div class="af-container">
+      <p><strong>Alborz Foundation</strong> · EIN: <strong>884356281</strong> · 211 HOPE ST #390542, Mountain View, CA 94041</p>
+      <p>Phone: <a href="tel:+18704108167">+1 870 410 8167</a> · Email: <a href="mailto:contact@alborzfoundation.click">contact@alborzfoundation.click</a></p>
+      <p>U.S. nonprofit under <strong>IRS §501(c)(3)</strong>. Donations may be tax-deductible as allowed by law.</p>
+      <small>© 2025 Alborz Foundation</small>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const nav = document.getElementById('nav');
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>

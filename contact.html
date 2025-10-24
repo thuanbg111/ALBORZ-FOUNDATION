@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Alborz Foundation in Mountain View, California." />
+  <title>Contact · Alborz Foundation</title>
+  <link rel="icon" href="images/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="images/logo.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="theme-alborz">
+  <header class="af-header">
+    <div class="af-container head-inner">
+      <button id="menuBtn" class="menu-btn" aria-label="Open navigation">☰</button>
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Alborz Foundation logo" />
+        <div class="brand-text"><strong>Alborz Foundation</strong><span>Public Benefit · IRS 501(c)(3)</span></div>
+      </a>
+      <nav id="nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Initiatives</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="af-container page-narrow">
+    <header class="page-header">
+      <h1>Contact Us</h1>
+      <p>We welcome partners, mentors, and supporters who share our commitment to long-term learning and opportunity.</p>
+    </header>
+
+    <div class="contact-grid">
+      <form class="contact-form" name="contact" netlify>
+        <input type="hidden" name="form-name" value="contact" />
+        <label>Full Name<input name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Message<textarea name="message" rows="6" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <ul>
+          <li><strong>Address:</strong> 211 HOPE ST #390542, Mountain View, CA 94041</li>
+          <li><strong>Phone:</strong> <a href="tel:+18704108167">+1 870 410 8167</a></li>
+          <li><strong>Email:</strong> <a href="mailto:contact@alborzfoundation.click">contact@alborzfoundation.click</a></li>
+          <li><strong>EIN:</strong> 884356281</li>
+          <li><strong>Status:</strong> IRS §501(c)(3) nonprofit public benefit</li>
+        </ul>
+        <div class="map-box">
+          <iframe src="https://www.google.com/maps?q=211+HOPE+ST+%23390542,+Mountain+View,+CA+94041&output=embed" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="af-footer">
+    <div class="af-container">
+      <p><strong>Alborz Foundation</strong> · EIN: <strong>884356281</strong> · 211 HOPE ST #390542, Mountain View, CA 94041</p>
+      <p>Phone: <a href="tel:+18704108167">+1 870 410 8167</a> · Email: <a href="mailto:contact@alborzfoundation.click">contact@alborzfoundation.click</a></p>
+      <p>U.S. nonprofit under <strong>IRS §501(c)(3)</strong>. Donations may be tax-deductible as allowed by law.</p>
+      <small>© 2025 Alborz Foundation</small>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const nav = document.getElementById('nav');
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
